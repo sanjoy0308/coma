@@ -3,7 +3,7 @@ name: Build and Deploy
 on:
   push:
     branches:
-      - main
+      - dev
 
 jobs:
   build:
@@ -33,4 +33,4 @@ jobs:
         with:      
           branch: gh-pages
           folder: dist # Change this to the folder where your build output is located
-          
+
