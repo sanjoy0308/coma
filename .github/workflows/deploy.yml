@@ -33,4 +33,4 @@ jobs:
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: gh-pages
-          FOLDER: dist # Change this to the folder where your build output is located
+          FOLDER: . # Change this to the folder where your build output is located
